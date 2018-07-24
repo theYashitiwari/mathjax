@@ -1,0 +1,64 @@
+html{
+      font-family: 'Futura W01', helvetica, san-serif;
+          background: #f6f3ea;
+}
+.main{
+
+  display: grid;
+  grid-template-columns: 100px 30px 230px 230px 140px;
+  grid-template-rows: 20px 150px 190px 120px;
+  grid-gap: 1rem;
+  margin-top: 88px;
+  margin-left: 200px;
+ transform: rotate(-15deg);
+ width:70vw;
+
+}
+h1{
+   transform: rotate(180deg);
+    color: #f9423a;
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    grid-column:1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    justify-self: end;
+    margin-right: -10px;
+    font-size: 100px;
+}
+.red-line{
+  grid-column-start: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  border-bottom: 25px solid #f9423a;
+align-self: start;
+justify-content: end;
+}
+.fill{
+  background-color: #f94230;
+  grid-column-start: 5;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+.formula1{
+  grid-column-start:3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.formula2{
+  grid-column-start:4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.formula3{
+  grid-column-start:3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.ftext{
+  color:#7ec0ee;
+  font-size: 23px;
+}
